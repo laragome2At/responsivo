@@ -35,3 +35,43 @@
 
 
 }
+
+@media screen and (min-width:321px) and (max-width:600px){
+    body{
+        background-color: rgb(56, 5, 56);
+    }
+    img{
+        width: 230px;
+        height: 80px;
+    }
+    button{
+        width: 87px;
+        margin: 12px;
+        margin-top: 0px;
+    }
+    .div1{
+        width: 540px;
+        height: 200px;
+        background-color: white;
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .div2{
+        width: 250px;
+        height: 200px;
+        background-color: white;
+        margin: 20px;
+        border-radius: 5px;
+    }
+    .div3{
+        width: 250px;
+        height: 200px;
+        background-color: white;
+        margin: 20px;
+        border-radius: 5px;
+    }
+    .divT{
+        display: flex;
+    }
+}
+
