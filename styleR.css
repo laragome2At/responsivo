@@ -1,4 +1,4 @@
-@media screen and (max-width:320px){
+@media screen and (max-width:300px){
     body{
         background-color: rgb(56, 5, 56);
     }
@@ -34,12 +34,15 @@
         margin: 10px;
         border-radius: 5px;
     }
+    p{
+        display: none;
+    }
 
 
 
 }
 
-@media screen and (min-width:321px) and (max-width:600px){
+@media screen and (min-width:301px) and (max-width:600px){
     body{
         background-color: rgb(56, 5, 56);
     }
@@ -78,6 +81,9 @@
     }
     .divT{
         display: flex;
+    }
+    p{
+        display: none;
     }
 }
 
